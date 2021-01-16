@@ -119,7 +119,7 @@ nav{
 	transition-duration: .1s;
 }
 
-.nav-items:hover, .nav-items:active{
+.nav-items:hover, .nav-items:link:active{
 	border-style: solid;
 	border-color: darkslateblue;
 	background: darkslateblue;
@@ -128,6 +128,7 @@ nav{
 	border-radius: 50px;
 	/* letter-spacing: -1px */
 }
+
 
 
 .index-page{
@@ -306,9 +307,9 @@ nav{
 	width: 75%;
 	height: 70vh;
 }
+
 .resume-and-link a{
-	color: black;
-	vertical-align: middle;
+	color: grey;
 	text-decoration: none;
 	border-style: solid;
 	padding: 10px 30px;
@@ -318,7 +319,8 @@ nav{
 	border-color: grey;
 	font-weight: bold;
 }
-.resume-and-link a:hover, .resume-and-link a:visited{
+
+.resume-and-link a:hover,.resume-and-link a:link:visited{
 	background-color: darkslateblue;
 	color: white;
 	border-color: darkslateblue;
