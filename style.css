@@ -110,8 +110,8 @@ nav{
 .nav-items{
 	top: 40px;
 	text-decoration: none;
-	margin-left: 7px;
-	margin-right: 7px;
+	margin-left: 4px;
+	margin-right: 4px;
 	border-style: solid;
 	border-color: rgba(0,0,0,0);
 	padding: 3px 6px;
@@ -264,7 +264,47 @@ nav{
 	border-style: solid;
 	border-color: darkslateblue;
 	border-bottom: none;
+	/* display: inline; */
 
+}
+
+.projects div{
+	height: 100%;
+	text-align: center;
+}
+
+.cheat{
+	display: flex;
+	width: 100%;
+}
+
+.cheat li{
+	padding: 2rem;
+}
+
+.cheat div{
+	width: 50%;
+	height: 100%;
+	text-align: center;
+}
+
+.cheat .primary-link{
+    background-color: white;
+    border-radius: 0.5rem;
+    color: white;
+    border: 2px solid black;
+    background-color: darkslateblue
+}
+
+.cheat .secondary-link{
+    color: darkslateblue;
+    border-radius: 0.5rem;
+    border: 2px solid darkslateblue;
+}
+
+.cheat .link {
+    text-decoration: none;
+    padding: 0.5rem 1rem;
 }
 
 .resume{
