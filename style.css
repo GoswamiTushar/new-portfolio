@@ -307,6 +307,19 @@ nav{
     padding: 0.5rem 1rem;
 }
 
+.link {
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+}
+
+.primary-link{
+    background-color: white;
+    border-radius: 0.5rem;
+    color: white;
+    border: 2px solid black;
+    background-color: darkslateblue
+}
+
 .resume{
 	width:  100%;
 	height: 100vh;
